@@ -1,0 +1,3 @@
+hostname: "{{ ansible_distribution }}"
+hostname_fqdn: "{{ ansible_distribution }}.prod.uib.es"
+host_ip4: "10.10.10.10"
