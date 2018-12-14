@@ -1,4 +1,9 @@
 ---
+
+- name: Debug
+  debug:
+    msg: "System {{ inventory_hostname }} has ipv4 {{ host_ip4 }}"
+
 - name: install apache2
   apt: name=apache2 update_cache=yes state=latest
 
